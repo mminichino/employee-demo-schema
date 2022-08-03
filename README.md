@@ -3,7 +3,7 @@
 Import the data:
 
 ````
-% /opt/couchbase/bin/cbimport json --format list -c http://1.2.3.4:8091 -u Administrator -p password -d file://employees.demo.json -b employees -g "%id%"
+/opt/couchbase/bin/cbimport json --format list -c http://1.2.3.4:8091 -u Administrator -p password -d file://employees.demo.json -b employees -g "%id%"
 ````
 
 Build the indexes:
